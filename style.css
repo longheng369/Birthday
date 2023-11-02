@@ -34,6 +34,7 @@ body {
     top: 48%;
     left: 25%;
     transform: translateY(-50%);
+    -webkit-transform-style: preserve-3d;
     transform-style: preserve-3d;
     z-index: 10;
     /* animation: anime 9s linear infinite; */
@@ -120,6 +121,7 @@ body {
     transform: translateY(-50%);
     transition: all 1s linear;
     transform-style: preserve-3d;
+    -webkit-transform-style: preserve-3d;
   }
   .moveTop200px {
     top: -200px;
@@ -128,9 +130,6 @@ body {
     opacity: 0;
   }
 
-  /* .box-container:hover .top-line-h {
-    opacity: 0;
-  } */
   .part-h {
     width: 210px;
     height: 60px;
@@ -170,6 +169,7 @@ body {
     padding: 104px 0;
     bottom: -58px;
     transform: rotateX(90deg);
+    -webkit-transform-style: preserve-3d;
     transform-style: preserve-3d;
   }
 
@@ -218,6 +218,7 @@ body {
     width: 30px;
     height: 211px;
     background-color: var(--heand-line);
+    -webkit-transform-style: preserve-3d;
     transform-style: preserve-3d;
     transition: all 1s linear;
   }
@@ -236,10 +237,7 @@ body {
     top: -60px;
     left: 35px;
     border-left: 60px solid rgb(235, 144, 32);
-
     border-top: 60px solid transparent;
-    /* transform: translateX(0px) translateY(75px) translateZ(30px)
-      rotateX(-90deg); */
   }
   .left-triangle {
     position: absolute;
@@ -329,6 +327,7 @@ body {
     width: 100px;
     height: 150px;
     background-color: darkcyan;
+    -webkit-perspective: 1100px;
     perspective: 1100px;
     transition: all 1s linear;
     z-index: 0;
@@ -361,17 +360,16 @@ body {
     transition-delay: 1s;
   }
   .card-wrapper {
-    /* background-color: white; */
     width: 100%;
     height: 100%;
     position: relative;
     top: -60px;
+    -webkit-transform-style: preserve-3d;
     transform-style: preserve-3d;
     transition: all 1s linear;
   }
   .cardAnime {
     top: -340px;
-    /* left: 30px; */
     transition-delay: 0.2s;
     transform: rotateX(48deg) rotateY(-60deg) rotateZ(35deg) scale(1.4)
       translateZ(-60px);
@@ -450,7 +448,6 @@ body {
     width: 106px;
     z-index: 10;
     height: 147px;
-    /* background-color: green; */
   }
   .ballooon {
     width: 30px;
