@@ -357,7 +357,7 @@ body {
   .layer-2-style {
     background-color: aquamarine;
     transform: rotateY(-130deg);
-    transition-delay: 1s;
+    transition-delay: 1.6s;
   }
   .card-wrapper {
     width: 100%;
@@ -391,7 +391,7 @@ body {
     font-weight: bolder;
   }
   .heang {
-    font-size: 12px;
+    font-size: 10px;
     text-align: center;
   }
   .longheng {
@@ -527,4 +527,13 @@ body {
   .balloon-5::after {
     border-bottom: 5px solid rgba(255, 0, 0, 0.825);
   }
+}
+@media screen and (min-width: 380px){
+  .text {
+    font-size: 12px;
+    text-align: center;
+    font-family: "Tangerine", cursive;
+    font-weight: bolder;
+  }
+  
 }
